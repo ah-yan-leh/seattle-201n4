@@ -1,5 +1,4 @@
 <a id="top"></a>
-
 # Today's Plan: Class 15 Lecture
 
 - Announcements
