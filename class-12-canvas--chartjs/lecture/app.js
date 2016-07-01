@@ -4,19 +4,21 @@ var allAvocados = [];
 
 //****CONSTRUCTOR & INSTANCES****//
 
-function Avocado(name, path) {
+function Avocado(name, path, shown, votes) {
   this.name = name;
   this.path = path;
-  this.timesShown = 0;
-  this.votes = 0;
+  this.timesShown = shown;
+  this.votes = votes;
   allAvocados.push(this);
 }
 
-var hand = new Avocado('hand', 'img/avocado-hand.png');
-var cartoon = new Avocado('cartoon', 'img/avoCartoon.jpg');
-var hass = new Avocado('hass', 'img/hass.jpg');
-var ripe = new Avocado('ripe', 'img/ripe-avocado.png');
-var bird = new Avocado('bird', 'img/avocado-bird.jpg');
+function instantiateAvocados() {
+  var hand = new Avocado('hand', 'img/avocado-hand.png', 0, 0);
+  var cartoon = new Avocado('cartoon', 'img/avoCartoon.jpg', 0, 0);
+  var hass = new Avocado('hass', 'img/hass.jpg', 0, 0);
+  var ripe = new Avocado('ripe', 'img/ripe-avocado.png', 0, 0);
+  var bird = new Avocado('bird', 'img/avocado-bird.jpg', 0, 0);
+}
 
 //****IMAGE & VOTING FUNCTIONS****//
 
@@ -64,6 +66,8 @@ var tracker = {
         avo.votes += 1;
       }
     }
+    var strAvocados = JSON.stringify(allAvocados);
+    localStorage.setItem('avocados', strAvocados);
   },
 
   //****CHART FUNCTIONS****//
@@ -113,6 +117,22 @@ tracker.displaySection.addEventListener('click', function(event) {
 })
 
 tracker.resultsButton.addEventListener('click', tracker.makeChart);
+
+//****GET AVOCADOS FROM LOCALSTORAGE****//
+
+(function getLocalStorage() {
+  if (localStorage.avocados) {
+    var strAvocados = localStorage.getItem('avocados');
+    var avocados = JSON.parse(strAvocados);
+    console.log(avocados);
+    for (var avo of avocados) {
+      console.log(avo);
+      var newAvo = new Avocado(avo.name, avo.path, avo.timesShown, avo.votes);
+    }
+  } else {
+    instantiateAvocados();
+  }
+})()
 
 //****SHOW FIRST PICS****//
 
