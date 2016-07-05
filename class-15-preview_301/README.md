@@ -64,6 +64,20 @@ Preview of the topics in Code 301, and some over-arching 'how the web works' dis
 michael@codefellows.com for any followup questions!
 
 <a id="pitches"></a>
+## Project Pitches
+
+- Nick: streaming service search engine with user profile & wish list
+
+- Will: to-dos & productivity/break scheduling
+
+- Nurbek: Electrical car charging station finder with station reviews and compatibility info
+
+- Will: quiz builder & taker. with video integration as stretch goal
+
+- Chris: roommate billing and cost sharing with voting for discretionary items
+
+- Kyle: board game chooser w/possible user stat tracking
+
 ## Project Teams
 
 [-top-](#top)
