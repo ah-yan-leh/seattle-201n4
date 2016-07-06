@@ -8,7 +8,6 @@
 - [301 Preview](#301)
 - [Project Pitches](#pitches)
 - [Final Project Overview](#project)
-- [Intro to iOS w/ instructors Michael Babiy and/or Adam Walraff](ios)
 
 ## Readings
 
@@ -39,11 +38,10 @@ Preview of the topics in Code 301, and some over-arching 'how the web works' dis
 - MVC
 - Responsive Design
 - SQL
+- Relational Data
 - Single-Page Application Development
-- Services and APIs
 - Algorithms
 - Functional Programming
-- Relational Data
 - AJAX
 - APIs
 
@@ -55,14 +53,21 @@ Preview of the topics in Code 301, and some over-arching 'how the web works' dis
 
 [-top-](#top)
 
-<a id="ios"></a>
-## Intro to iOS w/ instructor Michael Babiy
-
-[https://www.codefellows.org/courses/code-401/advanced-software-development-in-ios](Info on the 401 in iOS)
-
-michael@codefellows.com for any followup questions!
-
 <a id="pitches"></a>
+## Project Pitches
+
+- Nick: streaming service search engine with user profile & wish list
+- Nurbek
+- Michael
+
+- Chris: roommate billing and cost sharing with voting for discretionary items
+- Will
+- Ren
+
+- Kyle: SwiftMe - Taylor Swift recommendations based on user mood
+- Carolina
+- Yamile
+
 ## Project Teams
 
 [-top-](#top)
