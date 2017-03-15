@@ -1,8 +1,8 @@
 # Assignment Overview: Lab for Class 14
 
-Lab today will be a practice run in working with your project team. You're going to create a single project (in a new GitHub repo, with all team members set up as Collaborators) with two HTML docs and supporting CSS and JS docs as needed.
+Lab today will be a practice run in working with a larger team. You're going to create a single project (in a new GitHub repo, with all team members set up as Collaborators) with two HTML docs and supporting CSS and JS files as needed.
 
-One of the HTML docs is a design comp a la 'Chocoloate Pizza', based on the PREVIEW.tiff image in the adjoining assets directory.
+One of the HTML files is a design comp a la 'Chocolate Pizza', based on the PREVIEW.tiff image in the adjoining assets directory.
 
 **It is not expected that you will complete this project in any meaningful way. The point of the exercise is to get your feet wet in the group work process and to try some things for the first time without the pressure of working on your final project. Focus more on process than product, but still build the best thing you can. The more Git you do, the better.**
 
@@ -13,6 +13,7 @@ The other HTML doc will be a metric/standard conversion calculator. How you desi
   - miles to/from kilometers
   - pounds to/from kilograms
   - standard shit-ton to metric shit-ton
+- ONLY performs valid conversions
 - Receives user input via a single \<input> element, has a \<select> element to determine the conversion, and has a \<button> for users to click to perform the conversion
 - The result is displayed in the browser window in this format: "1 inch equals 2.540 centimeters"
 - Round decimals to the thousandths place as in example

@@ -34,19 +34,18 @@ Other utility libraries you might find useful at this point? Take a look at Loda
 
 Preview of the topics in Code 301, and some over-arching 'how the web works' discussion.
 
-#####Concepts
+##### Concepts
 - MVC
 - Responsive Design
 - SQL
+- Relational Data
 - Single-Page Application Development
-- Services and APIs
 - Algorithms
 - Functional Programming
-- Relational Data
 - AJAX
 - APIs
 
-#####Languages
+##### Languages
 - Advanced HTML Templating
 - Intermediate CSS and Introductory Sass
 - Intermediate JavaScript
@@ -54,14 +53,22 @@ Preview of the topics in Code 301, and some over-arching 'how the web works' dis
 
 [-top-](#top)
 
-<a id="301"></a>
-## 301 Entrance Exam info
-
-What you need to know.
-
 <a id="pitches"></a>
-## Project Teams
+## Project Pitches
 
+- Nick: streaming service search engine with user profile & wish list
+- Nurbek
+- Michael
+
+- Chris: roommate billing and cost sharing with voting for discretionary items
+- Will
+- Ren
+
+- Kyle: SwiftMe - Taylor Swift recommendations based on user mood
+- Carolina
+- Yamile
+
+## Project Teams
 
 [-top-](#top)
 
@@ -69,7 +76,7 @@ What you need to know.
 ## Final Project Overview, etc.
 
 - Go over the final project description
-- What we need to see in your proposals this afternoon
+- What we need to see in your proposals tomorrow
   - Every single little bit of planning you have
   - Details on any resources you're planning on using (APIs, libraries, etc.)
   - Any of these if you've thought about them: Image assets? Color palettes? Typographic ideas?
@@ -85,5 +92,7 @@ What you need to know.
     - [Welcome to Seattle](http://github.com/peterbreen/welcome-to-seattle/)
     - [Budget Buddy](http://github.com/stefuhnee/budget-buddy/)
     - [Hacker Hangout](http://github.com/ckperez/hackerhangout/)
+
+- Remember that each team will be expected to do a 5-10 minute standup meeting at the beginning of each day. These will happen near the start of lab time, when your team is assembled and the instructional staff are free.
 
 [-top-](#top)
